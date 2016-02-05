@@ -51,7 +51,24 @@
                     <view key="view" contentMode="scaleToFill" id="3ki-9Q-1Dd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="HOME WORK!!!!!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IBw-VE-HMm">
+                                <rect key="frame" x="209" y="130" width="182" height="32"/>
+                                <color key="backgroundColor" red="1" green="0.90855149310000005" blue="0.1153017361" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="bav-U7-W0c"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.2396950541" blue="0.1774338026" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.90855149310000005" blue="0.1153017361" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Mr-l7-Xjt" firstAttribute="top" secondItem="IBw-VE-HMm" secondAttribute="bottom" constant="389" id="0Dz-xA-35R"/>
+                            <constraint firstItem="IBw-VE-HMm" firstAttribute="centerX" secondItem="3ki-9Q-1Dd" secondAttribute="centerX" id="P0T-Gx-7Gb"/>
+                            <constraint firstItem="IBw-VE-HMm" firstAttribute="top" secondItem="6vg-hs-c7J" secondAttribute="bottom" constant="66" id="R4g-SQ-alq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wE0-W8-M5H"/>
                 </viewController>
