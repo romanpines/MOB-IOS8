@@ -127,7 +127,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-ON-FQf">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-ON-FQf">
                                 <rect key="frame" x="20" y="72" width="560" height="202"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Hi! I'm Roman :) I like tech and iOS development. I orignially got my BS in Marketing to learn how to promote and sucessfully run my own entertainment &amp; media company, Hudson Records. At some point I decided to have an iOS app but preferred to develope it myself. </string>
@@ -230,6 +230,6 @@
         <image name="IMG_8899.JPG" width="4368" height="2912"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8GN-57-VgB"/>
+        <segue reference="ds6-ty-lJu"/>
     </inferredMetricsTieBreakers>
 </document>

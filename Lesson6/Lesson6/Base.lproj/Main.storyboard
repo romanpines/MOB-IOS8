@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HAD-dR-JBx">
+                                <rect key="frame" x="45" y="57" width="510" height="340"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1c-TV-p84">
+                                <rect key="frame" x="222" y="461" width="30" height="30"/>
+                                <state key="normal" title="👍"/>
+                                <connections>
+                                    <action selector="thumbsUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EK7-hC-PwV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njL-3A-rHn">
+                                <rect key="frame" x="348" y="461" width="30" height="30"/>
+                                <state key="normal" title="👎"/>
+                                <connections>
+                                    <action selector="thumbsDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNO-5X-p7l"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRY-cR-Qcj">
+                                <rect key="frame" x="183" y="521" width="243" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JRY-cR-Qcj" secondAttribute="bottom" constant="38" id="03W-J8-GZr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="S1c-TV-p84" secondAttribute="bottom" constant="109" id="1iv-BR-tVx"/>
+                            <constraint firstItem="JRY-cR-Qcj" firstAttribute="top" secondItem="HAD-dR-JBx" secondAttribute="bottom" constant="124" id="64D-Hx-NpR"/>
+                            <constraint firstItem="njL-3A-rHn" firstAttribute="top" secondItem="HAD-dR-JBx" secondAttribute="bottom" constant="64" id="BG3-2l-LrT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="njL-3A-rHn" secondAttribute="bottom" constant="109" id="DOU-4Y-7Sw"/>
+                            <constraint firstItem="HAD-dR-JBx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="Fab-nl-iTH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HAD-dR-JBx" secondAttribute="bottom" constant="203" id="Jzg-d9-sHM"/>
+                            <constraint firstItem="HAD-dR-JBx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="PXS-4j-Gl8"/>
+                            <constraint firstItem="S1c-TV-p84" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="202" id="QDa-h6-YSq"/>
+                            <constraint firstItem="JRY-cR-Qcj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="163" id="XUE-BM-0Dd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="njL-3A-rHn" secondAttribute="trailing" constant="202" id="bol-jG-DMx"/>
+                            <constraint firstItem="S1c-TV-p84" firstAttribute="top" secondItem="HAD-dR-JBx" secondAttribute="bottom" constant="64" id="eWS-0x-B89"/>
+                            <constraint firstItem="njL-3A-rHn" firstAttribute="leading" secondItem="S1c-TV-p84" secondAttribute="trailing" constant="96" id="ep3-uy-u7u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JRY-cR-Qcj" secondAttribute="trailing" constant="154" id="kSJ-Xf-10C"/>
+                            <constraint firstItem="HAD-dR-JBx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kyK-eC-Drm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Label" destination="JRY-cR-Qcj" id="0Kh-ei-uem"/>
+                        <outlet property="imageView" destination="HAD-dR-JBx" id="TqF-wO-iPQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="300" height="275"/>
+    </resources>
+</document>
