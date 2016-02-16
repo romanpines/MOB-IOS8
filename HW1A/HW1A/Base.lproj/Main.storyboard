@@ -127,7 +127,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-ON-FQf">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-ON-FQf">
                                 <rect key="frame" x="20" y="72" width="560" height="202"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Hi! I'm Roman :) I like tech and iOS development. I orignially got my BS in Marketing to learn how to promote and sucessfully run my own entertainment &amp; media company, Hudson Records. At some point I decided to have an iOS app but preferred to develope it myself. </string>
@@ -137,10 +137,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5qd-ON-FQf" firstAttribute="leading" secondItem="gBZ-B0-3dX" secondAttribute="leadingMargin" id="BGl-cE-2Yb"/>
-                            <constraint firstItem="1T3-MH-lej" firstAttribute="top" secondItem="5qd-ON-FQf" secondAttribute="bottom" constant="326" id="Qg5-2h-ZLo"/>
-                            <constraint firstItem="5qd-ON-FQf" firstAttribute="trailing" secondItem="gBZ-B0-3dX" secondAttribute="trailingMargin" id="YGN-2L-fsu"/>
-                            <constraint firstItem="5qd-ON-FQf" firstAttribute="top" secondItem="p2E-lb-Z4d" secondAttribute="bottom" constant="8" symbolic="YES" id="d1v-hO-NhW"/>
+                            <constraint firstItem="5qd-ON-FQf" firstAttribute="leading" secondItem="gBZ-B0-3dX" secondAttribute="leadingMargin" id="9ya-em-5gL"/>
+                            <constraint firstItem="1T3-MH-lej" firstAttribute="top" secondItem="5qd-ON-FQf" secondAttribute="bottom" constant="326" id="HQH-9o-LQu"/>
+                            <constraint firstItem="5qd-ON-FQf" firstAttribute="top" secondItem="p2E-lb-Z4d" secondAttribute="bottom" constant="52" id="Jcq-Gq-SCD"/>
+                            <constraint firstItem="5qd-ON-FQf" firstAttribute="trailing" secondItem="gBZ-B0-3dX" secondAttribute="trailingMargin" id="Vt9-kO-Uxm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="Z5r-qN-80m"/>
