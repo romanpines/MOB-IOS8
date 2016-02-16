@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Lesson6
-//
-//  Created by Roman Pines on 2/11/16.
-//  Copyright © 2016 Roman Pines. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
