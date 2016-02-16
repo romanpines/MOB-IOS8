@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F638AA51C72CC4A00DF7211 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F638AA01C72CC4A00DF7211 /* 1.jpg */; };
+		9F638AA61C72CC4A00DF7211 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F638AA11C72CC4A00DF7211 /* 2.jpg */; };
+		9F638AA71C72CC4A00DF7211 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F638AA21C72CC4A00DF7211 /* 3.jpg */; };
+		9F638AA81C72CC4A00DF7211 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F638AA31C72CC4A00DF7211 /* 4.jpg */; };
+		9F638AA91C72CC4A00DF7211 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F638AA41C72CC4A00DF7211 /* 5.jpg */; };
 		9FE01DE51C6D639A00E0DC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE01DE41C6D639A00E0DC05 /* AppDelegate.swift */; };
 		9FE01DE71C6D639A00E0DC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE01DE61C6D639A00E0DC05 /* ViewController.swift */; };
 		9FE01DEA1C6D639A00E0DC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DE81C6D639A00E0DC05 /* Main.storyboard */; };
 		9FE01DEC1C6D639A00E0DC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DEB1C6D639A00E0DC05 /* Assets.xcassets */; };
 		9FE01DEF1C6D639A00E0DC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DED1C6D639A00E0DC05 /* LaunchScreen.storyboard */; };
-		9FE01DF71C6D65A500E0DC05 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DF61C6D65A500E0DC05 /* 1.jpg */; };
-		9FE01DFC1C6D678600E0DC05 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DF81C6D678600E0DC05 /* 2.jpg */; };
-		9FE01DFD1C6D678600E0DC05 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DF91C6D678600E0DC05 /* 3.jpg */; };
-		9FE01DFE1C6D678600E0DC05 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DFA1C6D678600E0DC05 /* 4.jpg */; };
-		9FE01DFF1C6D678600E0DC05 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FE01DFB1C6D678600E0DC05 /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F638AA01C72CC4A00DF7211 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		9F638AA11C72CC4A00DF7211 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		9F638AA21C72CC4A00DF7211 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		9F638AA31C72CC4A00DF7211 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		9F638AA41C72CC4A00DF7211 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		9FE01DE11C6D639A00E0DC05 /* Lesson6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE01DE41C6D639A00E0DC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE01DE61C6D639A00E0DC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,11 +32,6 @@
 		9FE01DEB1C6D639A00E0DC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE01DEE1C6D639A00E0DC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE01DF01C6D639A00E0DC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FE01DF61C6D65A500E0DC05 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../../../../1.jpg; sourceTree = "<group>"; };
-		9FE01DF81C6D678600E0DC05 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../../../../2.jpg; sourceTree = "<group>"; };
-		9FE01DF91C6D678600E0DC05 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../../../../3.jpg; sourceTree = "<group>"; };
-		9FE01DFA1C6D678600E0DC05 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../../../../4.jpg; sourceTree = "<group>"; };
-		9FE01DFB1C6D678600E0DC05 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../../../../5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,11 @@
 		9FE01DE31C6D639A00E0DC05 /* Lesson6 */ = {
 			isa = PBXGroup;
 			children = (
-				9FE01DF61C6D65A500E0DC05 /* 1.jpg */,
-				9FE01DF81C6D678600E0DC05 /* 2.jpg */,
-				9FE01DF91C6D678600E0DC05 /* 3.jpg */,
-				9FE01DFA1C6D678600E0DC05 /* 4.jpg */,
-				9FE01DFB1C6D678600E0DC05 /* 5.jpg */,
+				9F638AA01C72CC4A00DF7211 /* 1.jpg */,
+				9F638AA11C72CC4A00DF7211 /* 2.jpg */,
+				9F638AA21C72CC4A00DF7211 /* 3.jpg */,
+				9F638AA31C72CC4A00DF7211 /* 4.jpg */,
+				9F638AA41C72CC4A00DF7211 /* 5.jpg */,
 				9FE01DE41C6D639A00E0DC05 /* AppDelegate.swift */,
 				9FE01DE61C6D639A00E0DC05 /* ViewController.swift */,
 				9FE01DE81C6D639A00E0DC05 /* Main.storyboard */,
@@ -139,13 +139,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE01DEF1C6D639A00E0DC05 /* LaunchScreen.storyboard in Resources */,
-				9FE01DFC1C6D678600E0DC05 /* 2.jpg in Resources */,
-				9FE01DF71C6D65A500E0DC05 /* 1.jpg in Resources */,
-				9FE01DFF1C6D678600E0DC05 /* 5.jpg in Resources */,
+				9F638AA91C72CC4A00DF7211 /* 5.jpg in Resources */,
+				9F638AA81C72CC4A00DF7211 /* 4.jpg in Resources */,
+				9F638AA51C72CC4A00DF7211 /* 1.jpg in Resources */,
+				9F638AA61C72CC4A00DF7211 /* 2.jpg in Resources */,
+				9F638AA71C72CC4A00DF7211 /* 3.jpg in Resources */,
 				9FE01DEC1C6D639A00E0DC05 /* Assets.xcassets in Resources */,
-				9FE01DFD1C6D678600E0DC05 /* 3.jpg in Resources */,
 				9FE01DEA1C6D639A00E0DC05 /* Main.storyboard in Resources */,
-				9FE01DFE1C6D678600E0DC05 /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +307,7 @@
 				9FE01DF51C6D639A00E0DC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
